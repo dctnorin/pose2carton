@@ -20,6 +20,7 @@ EE228 课程大作业，利用3D骨架控制3D卡通人物。
 
 打开cmd输入
 curl https://bootstrap.pypa.io/pip/2.7/get-pip.py -o get-pip.py
+
 mayapy get-pip.py
 
 以及
@@ -31,14 +32,23 @@ mayapy -m pip install -i https://pypi.anaconda.org/carlkl/simple numpy
 在mayapy中输入
 
 import maya
+
 import maya.standalone
+
 maya.standalone.initialize(name='python')
+
 import maya.OpenMaya as om
+
 import maya.cmds as cmds
+
 import pymel.core as pm
+
 import maya.mel as mel
+
 import numpy as np
+
 import os
+
 import glob
 
 若成功运行则配置完成。
